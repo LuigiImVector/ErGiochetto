@@ -70,6 +70,8 @@ function start(){
 	counterVita = 3;
 
 	posizionePersonaggio = 1;
+	
+	scoreCounter.style.color = "#ffffff";
     currentTimer = setInterval(updateTimer, 10);
 }
 
@@ -143,11 +145,6 @@ function updateTimer()
 			{
 				if (arrayImg[i][3] == posizionePersonaggio)
 				{
-					console.log("a fantastica 0");
-					arrayImg[i][4] = "fischio";
-				} else if (arrayImg[i][3] == posizionePersonaggio)
-				{
-					console.log("a fantastica 3");
 					arrayImg[i][4] = "fischio";
 				} else if (arrayImg[i][4] != "fischio")
 				{
@@ -179,7 +176,6 @@ function updateTimer()
 						break;
 					case "accendino":
 						counterVita++;
-						console.log("vita uppata");
 						break;
 					default:
 						document.getElementById("fantastica").play();
@@ -267,8 +263,6 @@ function updateTimer()
 		document.getElementById("title").innerHTML = "Hai perso!";
 		score = parseInt(score)
 		document.getElementById("counter-score").innerHTML = "Score: " + score;
-		
-		console.log("Hai perso");
 	}
 }
 
