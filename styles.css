@@ -18,19 +18,19 @@ a, a:visited, a:hover {
 
 .fuori-strada {
 	background-color: #262626;
-	width: 100%; /* unica classe */
+	width: 100%;
 	height: 4%;
 }
 
 .bordo-strada {
 	background-color: #cc6221;
-	width: 100%; /* unica classe */
+	width: 100%;
 	height: 4%;
 }
 
 .strada {
 	background-color: #1c1b1b;
-	width: 100%; /* unica classe */
+	width: 100%;
 	height: 39.5%;
 }
 
@@ -43,7 +43,7 @@ a, a:visited, a:hover {
 .linee-guida {
 	float: left;
 	background-color: #ffffff;
-	width: 10%; /* unica classe */
+	width: 10%;
 	height: 6%;
 	margin-top: 8%;
 	margin-left: 17%;
@@ -63,13 +63,13 @@ a, a:visited, a:hover {
 
 .divisore {
 	background-color: #ffffff;
-	width: 100%; /* unica classe */
+	width: 100%;
 	height: 2%;
 }
 
 .spaziatore {
 	background-color: #262626;
-	width: 100%; /* unica classe */
+	width: 100%;
 	height: 1%;
 }
 
@@ -78,7 +78,7 @@ a, a:visited, a:hover {
 	width: 100%;
 	height: 100vh;
 	background-color: #171717e6; /* 10% di trasparenza */
-	font-family: Calibri; /* Aggiungere alternative */
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	transition: all 500ms ease-in-out;
 }
 
@@ -124,7 +124,7 @@ a, a:visited, a:hover {
 	position: relative;
 	color: white;
 	font-size: 40px;
-	font-family: Calibri; 
+	font-family: Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 #score {
