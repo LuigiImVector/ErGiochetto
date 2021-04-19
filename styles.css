@@ -120,6 +120,12 @@ a, a:visited, a:hover {
 	background-color: #ffffff;
 }
 
+#github-logo {
+	position: fixed;
+	right: 3%;
+	bottom: 3%;
+}
+
 .contatore {
 	position: relative;
 	color: white;
